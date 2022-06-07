@@ -1,0 +1,175 @@
+body{
+  font-family:"Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-family: "Montserrat";
+}
+
+/* headings */
+.big-heading{
+  font-family:"Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sectios */
+.colored-section {
+  background-color: #d48ce6;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.9rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* codeEditor Button */
+
+.codeEditor-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title-selector .container-fluid {
+  text-align: left;
+  padding: 3% 15% 13%;
+}
+
+
+.title-image {
+  right: 30%;
+  width: 80%;
+  
+  position: absolute;
+}
+
+/* Features */
+
+#features-selector {
+  position: relative;
+}
+
+.feature-col {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.feature-icon {
+  width: 100%;
+  color: #d48ce6;
+}
+.feature-icon:hover {
+  color: #9400a1;
+}
+.feature-title {
+  margin-top: 3%;
+  font-size: 20px;
+  font-size: 1.5rem;
+}
+
+.feature-details {
+  font-weight: lighter;
+  font-size: 12px;
+  color: #6e6e6e;
+  margin: 0 15%;
+}
+
+/* Resoure Section */
+
+#resource-selector {
+  background-color: #d48ce6;
+}
+
+.resource-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.resource-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* docs Section */
+
+#docs {
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.docs-column {
+  padding: 3% 2%;
+}
+
+.card {
+  height: 100%;
+}
+
+/* Footer Sector */
+#footer{
+  font-family: "Ubuntu";
+}
+
+/* Social Button */
+.social-icons{
+  margin: 20px 10px;
+}
+
+
+
+/* Media Query for resposiveness*/
+@media (max-width: 990px) {
+#title-selector{
+  text-align: center;
+}
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  .big-heading{
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  .resource-text{
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
